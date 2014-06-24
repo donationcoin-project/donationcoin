@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Donationcoin
+Comment=Donationcoin P2P Cryptocurrency
+Comment[fr]=Donationcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Donationcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/donationcoin-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/donationcoin128.png
+MimeType=x-scheme-handler/donationcoin;
+Categories=Office;

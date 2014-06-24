@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+#DEB_MAKE_CHECK_TARGET = test_donationcoin
+#build/Donationcoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_donationcoin)
+
+DEB_INSTALL_EXAMPLES_donationcoind += debian/examples/*
+DEB_INSTALL_MANPAGES_donationcoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix Donationcoind
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f donationcoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake donationcoin-qt.pro USE_QRCODE=1
+
+override_dh_auto_test:
+	cd src; $(MAKE) -f makefile.unix test_donationcoin
+	src/test_donationcoin
+
+# Ensure wrapper is set executable
+binary-post-install/Donationcoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/Donationcoind
+binary-post-install/donationcoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/donationcoin-qt
