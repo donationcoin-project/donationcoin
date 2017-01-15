@@ -55,12 +55,10 @@ $ ./Donationcoind &
 
 //It will complain about having no Donationcoin.conf file, we'll edit the one provided and move it into place
 
-$ cd ..
-$ nano donationcoin.conf
+$ nano ~/.donationcoin/donationcoin.conf
 
 //Edit the Username and Password fields to anything you choose (but remember them) then save the file
 
-$ mv donationcoin.conf /home/Donationcoin/src/
 $ cd src/
 $ ./Donationcoind &
 
@@ -76,14 +74,14 @@ $ ./Donationcoind getnewaddresss
 Donationcoin integration/staging tree
 ================================
 
-http://www.donation-coin.org
+http://donationcoin.org
 
-Copyright (c) 2014 Donationcoin Developers
+Copyright (c) 2014-2017 Donationcoin Developers
 
 What is Donationcoin?
 ----------------
 
-Donationcoin is a lite version of Donationcoin using scrypt as a proof-of-work algorithm.
+Donationcoin is a cryptocurrency for charity using scrypt as a proof-of-work algorithm.
  
 - 4 minute block targets
  
@@ -91,14 +89,14 @@ Donationcoin is a lite version of Donationcoin using scrypt as a proof-of-work a
  
 - ~90 million total coins
  
-- 50 Coins per Block
+- 50 Coins per Block (with halving. Now at 25)
 
 - Gravity Well Retargets Difficulty Every Block
 
 - 20% Premine for Charity and Development
 
 For more information, as well as an immediately useable, binary version of
-the Donationcoin client sofware, see http://www.donation-coin.org.
+the Donationcoin client sofware, see http://donationcoin.org
 
 License
 -------
