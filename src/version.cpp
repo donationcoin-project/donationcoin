@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("Donationcoin Digital Wallet");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "-Gravity Edition"
+#define CLIENT_VERSION_SUFFIX   "-Revival Edition"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
