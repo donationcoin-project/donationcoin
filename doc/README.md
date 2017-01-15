@@ -1,8 +1,8 @@
-Donationcoin 0.8.x BETA
-====================
+Donationcoin 1.4 BETA
+=====================
 
-Copyright (c) 2009-2013 Donationcoin Developers
-Copyright (c) 2011-2013 Donationcoin Developers
+Copyright (c) 2009-2013 Bitcoin Developers
+Copyright (c) 2013-2017 Donationcoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
