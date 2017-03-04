@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>787</width>
-    <height>570</height>
+    <height>470</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -54,7 +54,7 @@
                </font>
               </property>
               <property name="text">
-               <string>Wallet</string>
+               <string>Donationcoin</string>
               </property>
              </widget>
             </item>
