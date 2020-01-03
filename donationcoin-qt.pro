@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = Donationcoin-qt
 macx:TARGET = "Donationcoin-Qt"
-VERSION = 1.4.0.0
+VERSION = 1.4.1.0
 INCLUDEPATH += src src/json src/qt
 QT += network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets

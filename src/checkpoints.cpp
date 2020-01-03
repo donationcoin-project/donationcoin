@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The Donationcoin developers
+// Copyright (c) 2013-2020 The Donationcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -51,6 +51,7 @@ namespace Checkpoints
         ( 60000, uint256("0x44ea4c5f5f1f1f0dabcff235f100a9dcafcd0eb4fd9a73cb09d90036f7723c8e"))
         ( 63500, uint256("0x596b3af95d0bd6d1419c6e61b31063a6a06dfc1d2172b2a236abd4ed93b64242"))
         (900000, uint256("0x755a5f91a1660a5a503768ab6f013b15c15accc052b3227ce5dce26db0c7ab2a"))
+       (1777777, uint256("0xe07fe93405bb97630fe5b5e864516e519aa8dac3adacc1c109d903560bbbec4b"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
