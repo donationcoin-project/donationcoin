@@ -76,7 +76,7 @@ Donationcoin integration/staging tree
 
 http://donationcoin.org
 
-Copyright (c) 2013-2019 Donationcoin Developers
+Copyright (c) 2013-2020 Donationcoin Developers
 
 What is Donationcoin?
 ----------------
